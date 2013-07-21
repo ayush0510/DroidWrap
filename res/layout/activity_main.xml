@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/etInput"
+        android:text="Enter any text here ..... "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    <requestFocus />
+    </EditText>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="This is very basic text editing"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    </LinearLayout>
+<RadioGroup
+    android:id="@+id/rgGravity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+        <RadioButton
+        android:id="@+id/rb4"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Left" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Right" />
+   <RadioButton
+           android:id="@+id/rb3"
+           android:layout_width="106dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:text="Center" />
+
+   </RadioGroup>
+
+<RadioGroup
+    android:id="@+id/rgStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+      android:layout_marginLeft="180dp"
+        android:layout_marginTop="-140dp" >
+
+    <RadioButton
+        android:id="@+id/rb5"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+      
+        android:text="Bold" />
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+       
+        android:text="Normal" />
+
+    <RadioButton
+        android:id="@+id/rb6"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+       
+        android:text="Italics" />
+</RadioGroup>
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:layout_marginTop="40dp"
+     android:text="Choose Radio Buttons To Change Font Styles and Positions" />
+ 
+  
+ 
+    <Button
+        android:id="@+id/bOk"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="OKAY" />
+    
+    <TextView
+        android:id="@+id/tvGetInput"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Your Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+</LinearLayout>
